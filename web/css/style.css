@@ -1,0 +1,50 @@
+@charset "utf-8";
+.body
+{
+	background:#F9F7F7;
+	}
+h1
+{
+	color:red;
+	font-weight:bold;	
+	}
+	.div
+	{
+		margin:15px 0px 0px 270px;
+		background:#ECEAEA;
+		font-size:16px;
+		}
+	.sz
+	{
+		font-size:26px;
+		}
+.con
+{
+	margin-top:150px;
+	padding:50px;
+}
+.mar
+{
+	margin:0px 0px 100px 0px;
+	}
+	.footer
+	{
+	
+    position:fixed;
+    left: 0;
+    bottom: 0;
+	top:0;
+    width: 100%;
+    
+   
+    text-align: center;
+}
+	
+	a
+	{
+		 color:inherit;
+	}
+	
+	
+/* CSS Document */
+

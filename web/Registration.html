@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+        <style>
+            .body
+            {
+                background:#CFECF7;
+            }
+            .table
+            {
+                background:olive;
+            }
+            .div
+            {
+                margin: 20px 0px 0px 270px;
+                background:#AAFCA8;
+                font-size: 16px;
+            }
+            .h1
+            {
+                color:red;
+                font-weight:bold;
+            }
+            /*.h2
+            {
+                color:blue;
+                font-weight:bold;
+            }
+            */
+                .sz
+                {
+                    font-size: 26px;
+                }
+                .con
+                {
+                    margin-top: 20px;
+                    padding: 50px;
+                }
+                .link
+                {
+                    color:inherit;
+                }
+            </style>
+        </head>
+        <body class="body">
+
+            <div class="container con">
+                <center>
+
+
+                    <div class="col-sm-6 div">
+                        <h1 class="h1">
+                            Welcome to the Universal
+                        </h1>
+                        <h2 class="h2">
+                            All Field are Mandatory
+                        </h2>
+                        <form action="Registration">
+                            <div class="col-sm-3">Name:</div>
+                            <div class="col-sm-9"><input type="text" placeholder="Enter Your Name" name="name" class="form-control" required></div>
+                            <br><br>
+                            <div class="col-sm-3">Email:</div>
+                            <div class="col-sm-9"><input type="email" placeholder="Enter your Email" name="email" class="form-control" required></div><br><br>
+                             <div class="col-sm-3">Password:</div>
+                            <div class="col-sm-9"><input type="password" placeholder="*********" name="password" class="form-control" required></div>
+                            <br><br>
+                            <div class="col-sm-3">Confirm Password:</div>
+                            <div class="col-sm-9"><input type="password" placeholder="**********" name="cnf" class="form-control" required></div>
+                            <br><br>
+                            <div class="col-sm-3">Mobile</div>
+                            <div class="col-sm-9"><input type="text" placeholder="Enter your mobile" name="mob" class="form-control" required></div><br><br>
+                            <center><input type="submit" name="signup" value="SignUp" class="btn btn-success">&nbsp;&nbsp;
+                                <input type="reset" value="Clear" class="btn btn-danger"></center>
+                            
+                            
+                        </form>
+
+                    </div>
+
+
+                </center>
+
+            </div>
+
+        </body>
+    </html>
